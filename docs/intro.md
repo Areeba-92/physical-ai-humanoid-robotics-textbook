@@ -1,47 +1,59 @@
 ---
-sidebar_position: 1
+title: "Introduction to Physical AI & Humanoid Robotics"
 ---
 
-# Tutorial Intro
+# Introduction to Physical AI & Humanoid Robotics
 
-Let's discover **Docusaurus in less than 5 minutes**.
+This textbook introduces the emerging field of Physical AI and its application to humanoid robotics. As artificial intelligence systems become increasingly sophisticated, there is growing recognition that truly intelligent systems must be embodied - capable of interacting with and learning from the physical world. This represents a fundamental shift from traditional AI approaches that operate primarily in digital domains.
 
-## Getting Started
+## Motivation
 
-Get started by **creating a new site**.
+The limitations of purely digital AI systems have become increasingly apparent as we attempt to deploy them in real-world environments. While digital AI excels at pattern recognition, data processing, and symbolic reasoning, it struggles with the complexity, uncertainty, and physical constraints of the real world. Physical AI addresses these limitations by grounding intelligence in embodied systems that can perceive, act, and learn through interaction with their environment.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Intelligent physical systems represent the next frontier in AI development. They must handle sensorimotor coordination, adapt to changing environments, and make decisions under uncertainty while respecting physical laws and constraints. These challenges require new approaches that integrate perception, planning, control, and learning in ways that traditional AI systems do not address.
 
-### What you'll need
+## What is Physical AI?
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Physical AI represents a paradigm shift toward embodied intelligence - AI systems that are inherently connected to and constrained by the physical world. Unlike traditional AI that operates primarily on digital data, Physical AI systems must navigate the complexities of real-world physics, sensor noise, actuator limitations, and environmental uncertainty.
 
-## Generate a new site
+Embodied intelligence emphasizes that intelligence emerges from the interaction between an agent and its environment. The physical form of the agent, its sensors, and its actuators all contribute to its cognitive capabilities. This perspective suggests that intelligence cannot be fully understood or developed without considering the physical embodiment of the system.
 
-Generate a new Docusaurus site using the **classic template**.
+Physical AI systems must handle real-time perception and action, deal with partial observability, and maintain robust performance despite sensor and actuator noise. They must also learn from physical interaction, adapting their behavior based on sensory feedback and environmental changes.
 
-The classic template will automatically be added to your project after you run the command:
+## Humanoid Robotics as a Physical AI Paradigm
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Humanoid robotics represents a compelling platform for Physical AI research and development. The humanoid form factor offers several advantages: it can operate in human-designed environments, it enables natural human-robot interaction, and it provides a rich platform for studying embodied intelligence.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+The humanoid form factor is particularly well-suited for environments designed for humans. Humanoid robots can navigate spaces with stairs, doors, and furniture designed for human use. They can manipulate objects designed for human hands and interact with human interfaces such as keyboards, buttons, and touchscreens.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Humanoid robots must integrate multiple complex subsystems: locomotion for movement, manipulation for object interaction, and perception for environmental understanding. This integration creates a rich testbed for Physical AI research, as the system must coordinate these capabilities to achieve complex tasks.
 
-## Start your site
+Locomotion in humanoid robots involves dynamic balance, gait planning, and terrain adaptation. Manipulation requires precise control of multiple degrees of freedom, force control, and dexterous manipulation. Perception encompasses visual, auditory, and tactile sensing, often in real-time and under uncertainty.
 
-Run the development server:
+## Scope of This Textbook
 
-```bash
-cd my-website
-npm run start
-```
+This textbook is organized into several key modules that provide a comprehensive foundation in Physical AI and humanoid robotics:
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+**Module 1: Foundations** covers the mathematical and theoretical foundations necessary for understanding physical AI systems, including kinematics, dynamics, control theory, and machine learning approaches for embodied systems.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+**Module 2: ROS 2** introduces the Robot Operating System version 2, the standard middleware for robotics development. This module covers ROS 2 architecture, communication patterns, and best practices for building distributed robotic systems.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+**Module 3: Digital Twins** explores the use of simulation and digital twin technology for developing, testing, and deploying physical AI systems. This includes physics simulation, sensor simulation, and the integration of real and simulated environments.
+
+The textbook emphasizes both simulation and real-world deployment. Simulation provides a safe, efficient environment for testing and development, while real-world deployment validates system performance and identifies practical challenges. The integration of these approaches enables robust system development.
+
+## Intended Audience
+
+This textbook is designed for two primary audiences: AI students transitioning into robotics and robotics engineers seeking AI integration. AI students will find the material accessible as it builds on familiar concepts while introducing physical constraints and real-world challenges. Robotics engineers will appreciate the AI perspective and the integration of learning and adaptation into traditional robotics frameworks.
+
+The textbook assumes familiarity with AI concepts such as machine learning, planning, and reasoning, but does not assume prior robotics knowledge. Mathematical concepts are introduced as needed, with emphasis on practical application rather than theoretical development.
+
+Students should have a background in programming, basic linear algebra, and calculus. Familiarity with Python is helpful but not required, as the textbook includes necessary programming concepts.
+
+## Learning Philosophy
+
+This textbook adopts a theory + simulation + system-level thinking approach to learning. Theory provides the mathematical and conceptual foundation for understanding physical AI systems. Simulation offers a safe, efficient environment for experimentation and testing. System-level thinking emphasizes the integration of multiple components into complete, functional systems.
+
+The combination of these approaches enables students to understand both the theoretical principles and practical implementation of physical AI systems. Simulation allows for rapid iteration and experimentation without the constraints of physical hardware, while system-level thinking ensures that individual components work together effectively.
+
+This approach prepares students for the challenges of developing real-world physical AI systems, where theoretical understanding must be combined with practical implementation skills and system-level thinking.
