@@ -73,3 +73,6 @@ ROS 2 effectively acts as the robotic nervous system by providing a structured a
 -   **Inter-component Coordination**: Services facilitate synchronous requests for specific computations or configurations between different parts of the system.
 
 By abstracting away the low-level communication details, ROS 2 allows developers to focus on implementing intelligent behaviors and sophisticated control strategies, building a cohesive and functional robotic system.
+
+
+
